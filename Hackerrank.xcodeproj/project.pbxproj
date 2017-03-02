@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		343198B61E68D2B600F25E84 /* apples_and_oranges.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343198B41E68D2B600F25E84 /* apples_and_oranges.cpp */; };
 		34BABE6E1E60CF5600BA9228 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34BABE6D1E60CF5600BA9228 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		343198B41E68D2B600F25E84 /* apples_and_oranges.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = apples_and_oranges.cpp; sourceTree = "<group>"; };
+		343198B51E68D2B600F25E84 /* apples_and_oranges.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = apples_and_oranges.hpp; sourceTree = "<group>"; };
 		34BABE6A1E60CF5600BA9228 /* Hackerrank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hackerrank; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BABE6D1E60CF5600BA9228 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		343198B31E68D27C00F25E84 /* apples_and_oranges */ = {
+			isa = PBXGroup;
+			children = (
+				343198B41E68D2B600F25E84 /* apples_and_oranges.cpp */,
+				343198B51E68D2B600F25E84 /* apples_and_oranges.hpp */,
+			);
+			name = apples_and_oranges;
+			sourceTree = "<group>";
+		};
 		34BABE611E60CF5600BA9228 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +69,7 @@
 		34BABE6C1E60CF5600BA9228 /* Hackerrank */ = {
 			isa = PBXGroup;
 			children = (
+				343198B31E68D27C00F25E84 /* apples_and_oranges */,
 				34BABE6D1E60CF5600BA9228 /* main.cpp */,
 			);
 			path = Hackerrank;
@@ -119,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343198B61E68D2B600F25E84 /* apples_and_oranges.cpp in Sources */,
 				34BABE6E1E60CF5600BA9228 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +260,7 @@
 				34BABE731E60CF5600BA9228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
